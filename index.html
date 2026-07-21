@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harbor Hook Catch</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="game-shell">
+      <header class="hud">
+        <div class="badge">
+          <span>Score</span>
+          <strong id="score">0</strong>
+        </div>
+        <div class="badge">
+          <span>Small catches</span>
+          <strong id="small-catches">0</strong>
+        </div>
+        <div class="badge">
+          <span>Best</span>
+          <strong id="best">0</strong>
+        </div>
+      </header>
+
+      <canvas id="gameCanvas" width="960" height="620"></canvas>
+
+      <p class="instructions">
+        Use the arrow keys to guide the hook. Catch only the small fish to score points.
+      </p>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
